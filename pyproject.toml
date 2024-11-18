@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "huggingfaceStuff"
+version = "0.1.0"
+description = ""
+authors = ["François Bonnard <francois.bonnard@arrow.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+instructorembedding = "1.0.1"
+sentence-transformers = "2.2.2"
+python-decouple = "^3.8"
+huggingface-hub = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

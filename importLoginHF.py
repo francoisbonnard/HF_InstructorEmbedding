@@ -1,0 +1,3 @@
+import huggingface_hub
+from huggingface_hub import login
+print(huggingface_hub.__version__)
